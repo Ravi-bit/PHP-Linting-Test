@@ -1,0 +1,14 @@
+{
+    "require": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "require-dev": {
+        "overtrue/phplint": "^3.0"
+    },
+    "scripts": {
+        "lint":"phplint --no-cache src/",
+        "phpcs":"phpcs --standard=PSR2 src/ --colors",
+        "phpcbf":"phpcbf --standard=PSR2 src/"
+    }
+    
+}
