@@ -15,6 +15,7 @@
         }
     ],
     "description": "Sample project",
+    "name":"Ravi",
     "require": {
         "squizlabs/php_codesniffer": "*"
     },
