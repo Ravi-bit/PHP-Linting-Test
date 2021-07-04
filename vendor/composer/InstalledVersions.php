@@ -24,25 +24,16 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => '__root__',
+    'reference' => '3efaa5ce65576a18b5d6f8a1231a5a47eba1735d',
+    'name' => 'ravi/phpproject',
   ),
   'versions' => 
   array (
-    '__root__' => 
-    array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
-    ),
     'n98/junit-xml' => 
     array (
       'pretty_version' => '1.1.0',
@@ -76,6 +67,15 @@ private static $installed = array (
       array (
         0 => '1.0',
       ),
+    ),
+    'ravi/phpproject' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3efaa5ce65576a18b5d6f8a1231a5a47eba1735d',
     ),
     'squizlabs/php_codesniffer' => 
     array (
